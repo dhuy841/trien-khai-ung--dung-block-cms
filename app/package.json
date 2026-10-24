@@ -1,0 +1,21 @@
+{
+  "name": "student-blog-cms",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Simple Dockerized blog CMS for a systems administration assignment",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "5.1.0",
+    "mysql2": "3.11.5",
+    "prom-client": "15.1.3",
+    "nodemailer": "6.9.16",
+    "multer": "2.0.2"
+  }
+}
